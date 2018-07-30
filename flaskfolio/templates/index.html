@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+<!-- Content Block -->
+{% block page_title %} Home {% endblock %}
+
+<!-- Content -->
+{% block content %}
+	<div class="container-fluid">
+		<div class="header"><h1>HOME</h1></div>
+		<hr />
+        <div class="home-content">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="{{ url_for('static', filename='img/profilepic.jpg') }}" class="profile-img">
+                </div>
+                <div class="col-sm-7">
+                    <h1>Hi, I'm Matthew.</h1><br />
+                    <p>
+                        I create websites and software. From the first idea to
+                        requirements engineering, prototyping, and
+                        implementation, I’m ready to help.
+                    </p>
+                    <p>
+                        My experience lies in front and backend development.
+                        I’ve worked with HTML, CSS, JavaScript, MySQL, Java,
+                        and Python (such as the Flask framework used to
+                        create this site!).
+                    </p><br />
+                    <button type="button" class="btn btn-outline-primary btn-lg" onclick="location.href='/about';">About</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg" onclick="location.href='/portfolio';">Portfolio</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg" onclick="location.href='/contact';">Contact</button>
+                </div>
+            </div>
+        </div>
+	</div>
+{% endblock %}

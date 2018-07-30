@@ -1,0 +1,2 @@
+graft flaskfolio/templates
+graft flaskfolio/static

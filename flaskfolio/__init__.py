@@ -1,0 +1,1 @@
+from .flaskfolio import app

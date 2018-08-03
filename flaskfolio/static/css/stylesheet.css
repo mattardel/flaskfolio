@@ -23,8 +23,19 @@ hr {
 
 .header-img{
     height: 40px;
+    padding-top: 10px;
 }
 
 .panel{
     box-shadow: 0 4px 4px 0 #888888;
+}
+
+.home-td{
+    text-align: center;
+    padding: 15px;
+}
+
+.about-text{
+    font-size: 1.5em;
+    color: #707070;
 }

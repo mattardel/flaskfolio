@@ -11,7 +11,8 @@
             <br>
             <div class="row" style="font-size: 1.5em; color: #707070;">
                 <div class="col-sm-3">
-                    <img src="{{ url_for('static', filename='img/profile_bb.jpg') }}" class="img-responsive img-rounded" style="box-shadow: 0 4px 4px 0 #888888;">
+                    <img src="{{ url_for('static', filename='img/profile_bb.jpg') }}" class="img-responsive img-rounded" style="box-shadow: 0 4px 4px 0 #888888; max-height:305px; margin:auto;">
+                    <br />
                 </div>
                 <div class="col-sm-9">
                     <div class="panel panel-default">
@@ -58,35 +59,33 @@
                 </div>
                 <div class="col-sm-1"><!--blank spacing div--></div>
                 <div class="col-sm-5">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="{{ url_for('static', filename='img/html5_css3_logo.png') }}" class="img-responsive" style="height: 100px; float:right;">
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="{{ url_for('static', filename='img/wp-logo.png') }}" class="img-responsive center-block" style="height: 100px;">
-                        </div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="{{ url_for('static', filename='img/java-logo.png') }}" class="img-responsive" style="height: 150px; float: left;">
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="{{ url_for('static', filename='img/flask-logo.png') }}" class="img-responsive" style="height: 150px; float: left;">
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="{{ url_for('static', filename='img/python-logo.png') }}" class="img-responsive" style="height: 150px; float: right;">
-                        </div>
-                    </div>
-                    <br/>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="{{ url_for('static', filename='img/xd-logo.png') }}" class="img-responsive center-block" style="height: 100px;">
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="{{ url_for('static', filename='img/lr-logo.jpg') }}" class="img-responsive center-block" style="height: 100px;">
-                        </div>
-                    </div>
+                    <table class="table-responsive" style="margin:auto; border:none;">
+                        <tbody>
+                            <tr>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/html5_css3_logo.png') }}" class="img-responsive" style="max-height: 100px;"></td>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/wp-logo.png') }}" class="img-responsive" style="max-height: 100px;"></td>
+                                <td class="home-td"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table-responsive" style="margin:auto; border:none;"">
+                        <tbody>
+                            <tr>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/java-logo.png') }}" class="img-responsive" style="max-height: 150px;"></td>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/flask-logo.png') }}" class="img-responsive" style="max-height: 150px;"></td>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/python-logo.png') }}" class="img-responsive" style="max-height: 150px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table-responsive" style="margin:auto; border:none;"">
+                        <tbody>
+                            <tr>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/xd-logo.png') }}" class="img-responsive" style="max-height: 100px;"></td>
+                                <td class="home-td"><img src="{{ url_for('static', filename='img/lr-logo.jpg') }}" class="img-responsive" style="max-height: 100px;"></td>
+                                <td class="home-td"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <br />
                 </div>
             </div>

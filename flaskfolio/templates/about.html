@@ -1,10 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+<!-- Content Block -->
+{% block page_title %} About {% endblock %}
+
+<!-- Content -->
+{% block content %}
+<div class="container-fluid">
+    <div class="home-content">
+        <h1>About</h1>
+        <br>
+        <div class="row">
+            <div class="col-sm-8">
+                <p class="about-text">GitHub Profile: <a href="https://github.com/mattardel">https://github.com/mattardel</a></p>
+                <h2><i>Experience</i></h2>
+                <p class="about-text">Nov. 2015-Present</p>
+                <h3>Apple Store Genius</h3>
+                <p class="about-text">Brea, CA</p>
+                <ul class="about-text">
+                    <li>Performed software troubleshooting for iOS and Mac</li>
+                    <li>Repaired iPhone and Mac hardware</li>
+                    <li>Served as a resource for technical and procedural knowledge for junior members of the team</li>
+                    <li>Worked together with a team in assisting thousands of customers per month with technical issues</li>
+                </ul>
+                <br />
+                <p class="about-text">June 2014-Present</p>
+                <h3>IDE-IT Systems Administrator</h3>
+                <p class="about-text">Chicago, IL</p>
+                <ul class="about-text">
+                    <li>Served as administrator for independent IT firm</li>
+                    <ul>
+                        <li>Performed remote and in-person troubleshooting</li>
+                    </ul>
+                    <li>Provided software support to multiple large companies</li>
+                    <li>Utilized various software tools for systems administration:</li>
+                    <ul>
+                        <li>Windows Server 2008</li>
+                        <li>Active Directory</li>
+                        <li>Backup and recovery (WD, Sophos, Time Machine)</li>
+                        <li>Office 2016 including Outlook</li>
+                        <li>Remote desktop programs (LogMeIn and TeamViewer)</li>
+                    </ul>
+                    <li>Worked in network administration, new user setup, VPN setup and troubleshooting, server administration, and helpdesk</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <br /><br /><br />
+                <img src="{{ url_for('static', filename='img/apple-logo.png') }}" class="img-responsive" style="max-height: 300px; margin: auto;">
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-8">
+                <h2><i>Education</i></h2>
+                <br />
+                <p class="about-text">September 2013 - June 2018</p>
+                <h2>University of California, Irvine</h2>
+                <p class="about-text">Irvine, CA</p>
+                <ul class="about-text">
+                    <li>Graduated June 16th, 2018</li>
+                    <li>Took courses in programming, software design, information security, networking, and web design</li>
+                    <li>Worked with Capital Group financial firm to redesign a part of their American Funds website</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <br /><br /><br />
+                <img src="{{ url_for('static', filename='img/uci-logo.gif') }}" class="img-responsive" style="max-height: 300px; margin: auto;">
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-4">
+                <h2><i>Skills</i></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3" style="margin-left: 5%;">
+                <h2>Spoken Languages</h2>
+                <ul class="about-text">
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>Romanian</li>
+                </ul>
+            </div>
+            <div class="col-sm-4" style="margin-left: 5%;">
+                <h2>Programming Languages</h2>
+                <ul class="about-text">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Flask/Jinja2</li>
+                </ul>
+            </div>
+            <div class="col-sm-3" style="margin-left: 5%;">
+                <h2>Soft Skills</h2>
+                <ul class="about-text">
+                    <li>Teamwork</li>
+                    <li>Customer Service</li>
+                    <li>Troubleshooting</li>
+                    <li>Empathy</li>
+                    <li>Positioning</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <hr/>
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: <a href="/contact">Matthew Ardeleanu</a></div>
+    </footer>
+    <br/>
+</div>
+{% endblock %}

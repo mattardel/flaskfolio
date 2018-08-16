@@ -11,6 +11,15 @@ mail = Mail()
 app = Flask(__name__)
 app.config.from_object(__name__)
 Bootstrap(app)
+app.config.update(dict(
+    DEBUG = True,
+    MAIL_SERVER = 'smtp.zoho.com',
+    MAIL_PORT = 465,
+    MAIL_USE_SSL = True,
+    MAIL_USERNAME = 'matt@mattardel.com',
+    MAIL_PASSWORD = 'H0pp3rla$4dayZ',
+    MAIL_DEFAULT_SENDER = 'matt@mattardel.com'
+))
 
 app.secret_key = 'flask_form_2010'
 
@@ -18,20 +27,21 @@ MAIL_DEFAULT_SENDER = 'matt@mattardel.com'
 
 mail.init_app(app)
 
+
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
-  form = ContactForm(request.form)
+    form = ContactForm(request.form)
 
-  if request.method == 'POST':
-      if form.validate() == False:
-          flash('All fields are required to send a message!')
-          return render_template('contact.html', form=form)
-      else:
-          msg = Message('Test', recipients=["mattardel@gmail.com"])
-          mail.send(msg)
-          return 'Form posted'
-  elif request.method == 'GET':
-      return render_template('contact.html', form=form)
+    if request.method == 'POST':
+        if form.validate() == False:
+            flash('All fields are required to send a message!')
+            return render_template('contact.html', form=form)
+        else:
+            msg = Message('Test', recipients=["matt@mattardel.com"])
+            mail.send(msg)
+            return 'Form posted'
+    elif request.method == 'GET':
+        return render_template('contact.html', form=form)
 
 @app.route('/')
 def get_index():

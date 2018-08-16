@@ -3,8 +3,8 @@ from wtforms import StringField, SubmitField, TextAreaField, validators
 from flask import request
 
 class ContactForm(Form):
-    name=StringField("name", [validators.DataRequired("Please enter your name.")])
-    email=StringField("email", [validators.DataRequired("Please enter your email address."), [validators.Email("Please enter your email address.")]])
-    subject=StringField("subject", [validators.DataRequired("Please enter a subject.")])
-    message=TextAreaField("message", [validators.DataRequired("Please enter a message.")])
+    name=StringField("name", [validators.DataRequired()])
+    email=StringField("email", [validators.Email("Please enter a valid email address.")])
+    subject=StringField("subject", [validators.DataRequired()])
+    message=TextAreaField("message", [validators.DataRequired()])
     submit = SubmitField("send")

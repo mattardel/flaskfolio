@@ -40,6 +40,12 @@ hr {
     color: #707070;
 }
 
+.sites-text{
+    font-size: 1.5em;
+    color: #707070;
+    font-style: normal;
+}
+
 textarea {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;

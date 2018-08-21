@@ -8,57 +8,64 @@
 <div class="container-fluid">
     <div class="home-content">
         <h1>Contact</h1>
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="about-text"><i>Want to get in contact? Email me at matt@mattardel.com or fill out the form below.</i></p>
-            </div>
-        </div>
-        <hr />
 
-        {% for message in get_flashed_messages() %}
-            <div class="alert alert-danger">{{ message }}</div>
-        {% endfor %}
-
-        {% for message in form.email.errors %}
-            <div class="alert alert-danger">{{ message }}</div>
-        {% endfor %}
-
-        <form action="{{ url_for('contact') }}" method=post class="form form-horizontal" role="form">
-
-            {{ form.csrf }}
-            {{ form.hidden_tag() }}
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <label class="sr-only" for="name">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" aria-describedby="name" style="width: 100%;"
-                           placeholder="Name:">
-                </div>
-                <div class="col-sm-6">
-                    <label class="sr-only" for="email">Email</label>
-                    <input type="text" class="form-control" id="email" name="email" aria-describedby="email" style="width: 100%;"
-                           placeholder="Email:">
-                    <br />
-                </div>
-                <br /><br />
-                <div class="col-sm-12">
-                    <label class="sr-only" for="subject">Subject</label>
-                    <input type="text" class="form-control" id="subject" name="subject" aria-describedby="subject" style="width: 100%;"
-                              placeholder="Subject:">
-                    <br />
-                </div>
-                <div class="col-sm-12">
-                    <label class="sr-only" for="message">Message</label>
-                    <textarea class="form-control" id="message" name="message" aria-describedby="message" style="width: 100%;" rows="5"
-                              placeholder="Message:"></textarea>
-                </div>
-            </div>
+        {% if success %}
             <br />
-            <div style="text-align: center">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            <p class="about-text">Thanks for the interest! Your message has been sent. I'll get back to you soon!</p>
+        {% else %}
+
+            {% for message in get_flashed_messages() %}
+                <div class="alert alert-danger">{{ message }}</div>
+            {% endfor %}
+
+            {% for message in form.email.errors %}
+                <div class="alert alert-danger">{{ message }}</div>
+            {% endfor %}
+
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="about-text"><i>Want to get in contact? <a href="mailto:matt@mattardel.com">Send me an email</a> or fill out the form below.</i></p>
+                </div>
             </div>
-        </form>
+            <hr />
+
+            <form action="{{ url_for('contact') }}" method=post class="form form-horizontal" role="form">
+
+                {{ form.csrf }}
+                {{ form.hidden_tag() }}
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="sr-only" for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" aria-describedby="name" style="width: 100%;"
+                               placeholder="Name:">
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="sr-only" for="email">Email</label>
+                        <input type="text" class="form-control" id="email" name="email" aria-describedby="email" style="width: 100%;"
+                               placeholder="Email:">
+                        <br />
+                    </div>
+                    <br /><br />
+                    <div class="col-sm-12">
+                        <label class="sr-only" for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" aria-describedby="subject" style="width: 100%;"
+                                  placeholder="Subject:">
+                        <br />
+                    </div>
+                    <div class="col-sm-12">
+                        <label class="sr-only" for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" aria-describedby="message" style="width: 100%;" rows="5"
+                                  placeholder="Message:"></textarea>
+                    </div>
+                </div>
+                <br />
+                <div style="text-align: center">
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+            </form>
+        {% endif %}
         <!--
         <form class="form-inline">
             <div class="row">

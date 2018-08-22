@@ -37,6 +37,10 @@ class ContactForm(Form):
     message=TextAreaField("message", [validators.DataRequired()])
     submit = SubmitField("send")
 
+@app.route('/')
+def get_index():
+    return render_template('index.html')
+
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     form = ContactForm(request.form)
@@ -55,10 +59,6 @@ def contact():
             return render_template('contact.html', success=True)
     elif request.method == 'GET':
         return render_template('contact.html', form=form)
-
-@app.route('/')
-def get_index():
-    return render_template('index.html')
 
 @app.route('/layout')
 def get_layout():

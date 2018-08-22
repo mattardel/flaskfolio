@@ -5,6 +5,6 @@ setup(
     packages=['flaskfolio'],
     include_package_data=True,
     install_requires=[
-        'flask',
+        'flask', 'flask_wtf', 'flask_mail'
     ],
 )

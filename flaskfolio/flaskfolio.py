@@ -4,8 +4,10 @@ import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash
 from flask_bootstrap import Bootstrap
-from flaskfolio.forms import ContactForm
+#from flaskfolio.forms import ContactForm
 from flask_mail import Message, Mail
+from flask_wtf import Form
+from wtforms import StringField, SubmitField, TextAreaField, validators
 
 mail = Mail()
 
@@ -28,6 +30,12 @@ MAIL_DEFAULT_SENDER = 'matt@mattardel.com'
 
 mail.init_app(app)
 
+class ContactForm(Form):
+    name=StringField("name", [validators.DataRequired()])
+    email=StringField("email", [validators.Email("Please enter a valid email address.")])
+    subject=StringField("subject", [validators.DataRequired()])
+    message=TextAreaField("message", [validators.DataRequired()])
+    submit = SubmitField("send")
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():

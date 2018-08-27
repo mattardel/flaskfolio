@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
-<!-- Content Block -->
-{% block page_title %} Contact {% endblock %}
+<!-- Title Block -->
+{% block title %} Contact {% endblock %}
 
 <!-- Content -->
 {% block content %}
@@ -31,7 +31,7 @@
             <hr />
 
             <form action="{{ url_for('contact') }}" method=post class="form form-horizontal" role="form">
-                
+
                 {{ form.csrf }}
                 {{ form.hidden_tag() }}
 

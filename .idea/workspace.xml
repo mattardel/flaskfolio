@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/flaskfolio/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="91" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="91" />
+              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
               </folding>
@@ -806,7 +806,7 @@
     <entry file="file://$PROJECT_DIR$/flaskfolio/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="91" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="91" />
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
           </folding>

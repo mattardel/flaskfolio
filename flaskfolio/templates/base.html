@@ -7,29 +7,12 @@
 {{super()}}
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/stylesheet.css') }}">
 <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon_classic.png') }}"/>
-<link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='img/favicon_classic.png') }}"/>
+<link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='img/favicon_classic_wbg.png') }}"/>
 
 {% endblock %}
 
 <!-- Navigation Bar -->
 {% block navbar %}
-<!--
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-
-            <div class="nav navbar-header">
-                <a href="/"><img src="{{ url_for('static', filename='img/mra.png') }}" class="header-img"></a>
-            </div>
-
-			<ul class="nav navbar-nav navbar-right" style="padding-left:130px;">
-                <li><a class="navbar-brand" href="/">Home</a></li>
-                <li><a class="navbar-brand" href="/about">About</a></li>
-                <li><a class="navbar-brand" href="/contact">Contact</a></li>
-                <li><a class="navbar-brand" href="/sites">Other Sites</a></li>
-			</ul>
-		</div>
-	</nav>
-	-->
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">

@@ -10,46 +10,8 @@
         <h1>About</h1>
         <br>
         <div class="row">
-            <div class="col-sm-7">
-                <p class="about-text">GitHub Profile: <a href="https://github.com/mattardel">https://github.com/mattardel</a></p>
-                <h2><i>Experience</i></h2>
-                <p class="about-text">Nov. 2015-Present</p>
-                <h3>Apple Store Genius</h3>
-                <p class="about-text">Brea, CA</p>
-                <ul class="about-text">
-                    <li>Performed software troubleshooting for iOS and Mac</li>
-                    <li>Repaired iPhone and Mac hardware</li>
-                    <li>Served as a resource for technical and procedural knowledge for junior members of the team</li>
-                    <li>Worked together with a team in assisting thousands of customers per month with technical issues</li>
-                </ul>
-            </div>
-            <br />
-            <div class="col-sm-5">
-                <img src="{{ url_for('static', filename='img/apple-logo.png') }}" class="img-responsive" style="max-height: 300px; margin: auto;">
-            </div>
-        </div>
-        <hr />
-        <div class="row">
-            <div class="col-sm-7">
-                <p class="about-text">June 2014-July 2018</p>
-                <h3>IDE-IT Systems Administrator</h3>
-                <p class="about-text">Chicago, IL</p>
-                <ul class="about-text">
-                    <li>Served as administrator for independent IT firm</li>
-                    <ul>
-                        <li>Performed remote and in-person troubleshooting</li>
-                    </ul>
-                    <li>Provided software support to multiple large companies</li>
-                    <li>Utilized various software tools for systems administration:</li>
-                    <ul>
-                        <li>Windows Server 2008</li>
-                        <li>Active Directory</li>
-                        <li>Backup and recovery (WD, Sophos, Time Machine)</li>
-                        <li>Office 2016 including Outlook</li>
-                        <li>Remote desktop programs (LogMeIn and TeamViewer)</li>
-                    </ul>
-                    <li>Worked in network administration, new user setup, VPN setup and troubleshooting, server administration, and helpdesk</li>
-                </ul>
+            <div class="col-sm-12">
+                <p class="about-text">GitHub Profile: <a href="https://github.com/mattardel">github.com/mattardel</a> <br /> LinkedIn Profile: <a href="https://www.linkedin.com/in/mattardel/">linkedin.com/in/mattardel</a></p>
             </div>
         </div>
         <hr />
@@ -61,13 +23,74 @@
                 <p class="about-text" style="color:black;"><i>Donald Bren School of Information and Computer Science</i></p>
                 <ul class="about-text">
                     <li>B.S. in <b>Informatics</b> - Graduated June 2018</li>
-                    <li>Took courses in programming, software design, information security, networking, and web design</li>
-                    <li>Worked with Capital Group financial firm to redesign a part of their American Funds website</li>
+                    <ul>
+                        <li>Specialization in Health Informatics, focusing on public health</li>
+                        <li>Cumulative GPA: 3.0 | Major GPA: 3.6</li>
+                    </ul>
+                    <li>Worked an average of 28-30 hours per week at Apple retail store</li>
+                    <li>Collaborated with the Capital Group to create an investing microsite as capstone project and built its Flask framework independently</li>
+                    <li>Implemented a Flask health record portal to explain hospital lab results</li>
                 </ul>
             </div>
             <div class="col-sm-5">
                 <br /><br />
                 <img src="{{ url_for('static', filename='img/uci-logo.gif') }}" class="img-responsive" style="max-height: 300px; margin: auto;">
+            </div>
+        </div>
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-7">
+                <h2><i>Experience</i></h2>
+                <p class="about-text">Nov. 2015-Present</p>
+                <h3>Apple Store Genius</h3>
+                <p class="about-text">Brea, CA</p>
+                <ul class="about-text">
+                    <li>Performed software troubleshooting for iOS and Mac</li>
+                    <li>Repaired iPhone and Mac hardware</li>
+                    <li>Served as a resource for technical and procedural knowledge for all members of the team</li>
+                    <li>Provided mentoring and feedback for junior coworkers</li>
+                </ul>
+            </div>
+            <br />
+            <div class="col-sm-5">
+                <img src="{{ url_for('static', filename='img/apple-logo.png') }}" class="img-responsive" style="max-height: 300px; margin: auto;">
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-7">
+                <p class="about-text">June 2014-July 2018</p>
+                <h3>IDE-IT System Administrator</h3>
+                <p class="about-text">Chicago, IL</p>
+                <ul class="about-text">
+                    <li>Served as sole IT administrator intermittently for independent IT firm supporting 300+ users</li>
+                    <ul>
+                        <li>Performed remote and in-person troubleshooting</li>
+                    </ul>
+                    <li>Provided tech support to multiple midsize companies, including Planned Property Management and Foresite Realty</li>
+                    <li>Utilized various software tools for systems administration:</li>
+                    <ul>
+                        <li>Windows Server 2008, Active Directory, backup and recovery (WD, Sophos, Time Machine), RDP</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-7">
+                <p class="about-text">2014-2015</p>
+                <h3>St. Joseph ER Greeter</h3>
+                <p class="about-text">Orange, CA</p>
+                <ul class="about-text">
+                    <li>Volunteered as greeter and intake in emergency room</li>
+                    <li>Worked closely with triage nurse to quickly attend to patients</li>
+                    <li>Learned to manage stressful and demanding situations on the fly</li>
+                </ul>
+            </div>
+            <br />
+            <div class="col-sm-5">
+                <img src="{{ url_for('static', filename='img/stjologo.png') }}" class="img-responsive" style="max-height: 300px; margin: auto;">
             </div>
         </div>
         <hr />
@@ -96,17 +119,33 @@
                 </ul>
             </div>
             <div class="col-sm-3" style="margin-left: 5%;">
-                <h2>Soft Skills</h2>
+                <h2>Software</h2>
                 <ul class="about-text">
-                    <li>Teamwork</li>
-                    <li>Customer Service</li>
-                    <li>Troubleshooting</li>
-                    <li>Empathy</li>
-                    <li>Positioning</li>
+                    <li>WordPress</li>
+                    <li>Linux Server</li>
+                    <li>Windows Server</li>
+                    <li>Adobe Lightroom</li>
+                    <li>Adobe XD</li>
                 </ul>
             </div>
         </div>
-
+        <hr />
+        <div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <h2><i>Personal Interests</i></h2>
+                    <br />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p class="about-text">Archery | Automotive | Cycling | Cyber Security | Photography | Tennis</p>
+                </div>
+                <div class="col-sm-5">
+                    <img src="{{ url_for('static', filename='img/arrow.png') }}" class="img-responsive" style="max-height: 300px; float: right;">
+                </div>
+            </div>
+        </div>
     </div>
 
     <hr/>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786a034d-b012-4dbe-a5a7-cfbfda2cbe3e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/portfolio logo.ai" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/portfolio logo.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskfolio/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskfolio/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/templates/sites.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/templates/sites.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flaskfolio$flaskfolio.coverage" NAME="flaskfolio Coverage Results" MODIFIED="1536696715707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskfolio$flaskfolio.coverage" NAME="flaskfolio Coverage Results" MODIFIED="1537244423375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -73,16 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flaskfolio/templates/about.html">
+      <file leaf-file-name="sites.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flaskfolio/templates/sites.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+            <state relative-caret-position="401">
+              <caret line="181" column="112" selection-start-line="181" selection-start-column="112" selection-end-line="181" selection-end-column="112" />
               <folding>
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,9 +124,9 @@
         <option value="$PROJECT_DIR$/flaskfolio/flaskfolio.py" />
         <option value="$PROJECT_DIR$/flaskfolio/templates/contact.html" />
         <option value="$PROJECT_DIR$/flaskfolio/templates/base.html" />
-        <option value="$PROJECT_DIR$/flaskfolio/templates/sites.html" />
         <option value="$PROJECT_DIR$/flaskfolio/templates/index.html" />
         <option value="$PROJECT_DIR$/flaskfolio/templates/about.html" />
+        <option value="$PROJECT_DIR$/flaskfolio/templates/sites.html" />
       </list>
     </option>
   </component>
@@ -177,7 +174,7 @@
               <item name="flaskfolio" type="462c0819:PsiDirectoryNode" />
               <item name="flaskfolio" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flaskfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +273,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2653899" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2653899" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
@@ -742,23 +739,6 @@
     <entry file="file://$PROJECT_DIR$/flaskfolio/static/img/favicon_classic.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskfolio/templates/sites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskfolio/static/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flaskfolio/flaskfolio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -801,13 +781,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskfolio/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+        <state relative-caret-position="113">
+          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskfolio/static/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskfolio/templates/sites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="181" column="112" selection-start-line="181" selection-start-column="112" selection-end-line="181" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

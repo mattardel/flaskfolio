@@ -2,6 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786a034d-b012-4dbe-a5a7-cfbfda2cbe3e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/apple-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edcbenchmade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edcbrands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edchome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edcservlets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edcservlets2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edcservlets3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/edcservletscart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/lr-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/profile_bb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/sensedata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/sensehealthabout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/sensehealthexpl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/sensehealthoptions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/sensehome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/sensehomewide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/stjologo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/wp-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/xd-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/IMG_0325.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/IMG_3608.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/Lined-Paper-White-Tileable-pattern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/Noise-lines-White-Tileable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/_MG_5412-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/apple-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/apple-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/debut_light_@2X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edcbenchmade.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edcbenchmade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edcbrands.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edcbrands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edchome.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edchome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edcservlets.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edcservlets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edcservlets2.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edcservlets2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edcservlets3.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edcservlets3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/edcservletscart.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/edcservletscart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/grey_@2X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/html5_css3_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/Full Size Photos/html5_css3_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/lr-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/lr-logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/profile_bb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/profile_bb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/resume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/sensedata.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/sensedata.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/sensehealthabout.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/sensehealthabout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/sensehealthexpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/sensehealthexpl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/sensehealthoptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/sensehealthoptions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/sensehome.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/sensehome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/sensehomewide.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/sensehomewide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/skeletal_weave_@2X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/stjologo.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/stjologo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/subtle_dots_@2X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/wp-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/wp-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskfolio/static/img/xd-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/static/img/xd-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskfolio/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskfolio/templates/about.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +66,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flaskfolio$flaskfolio.coverage" NAME="flaskfolio Coverage Results" MODIFIED="1537244423375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskfolio$flaskfolio.coverage" NAME="flaskfolio Coverage Results" MODIFIED="1537739557645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -74,8 +128,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flaskfolio/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="125">
+              <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -276,9 +330,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2653899" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2653899" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="3" />
       <window_info anchor="right" id="R Packages" order="6" />
@@ -801,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskfolio/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+        <state relative-caret-position="125">
+          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>

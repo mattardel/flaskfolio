@@ -20,7 +20,7 @@ app.config.update(dict(
     MAIL_PORT = 465,
     MAIL_USE_SSL = True,
     MAIL_USERNAME = 'matt@mattardel.com',
-    MAIL_PASSWORD = 'H0pp3rla$4dayZ',
+    MAIL_PASSWORD = '####',
     MAIL_DEFAULT_SENDER = 'matt@mattardel.com'
 ))
 
